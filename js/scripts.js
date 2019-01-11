@@ -237,16 +237,18 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var itc_kol = {lat: 43.189801, lng: -77.516010};
+    var lodge = {lat: 43.189801, lng: -77.516010};
+    var roc = {lat: 43.157798, lng: -77.611376};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: itc_kol,
+        zoom: 11,
+        center: roc,
         scrollwheel: false
     });
 
     var marker = new google.maps.Marker({
-        position: itc_kol,
-        map: map
+        position: lodge,
+        map: map,
+	label: "Abraham Lincoln Park Lodge"
     });
 }
 
