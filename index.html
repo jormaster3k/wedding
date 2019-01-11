@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Jory & Valerie getting hitched!</title>
+    <title>Jory & Valerie</title>
     <meta name="description" content="We would like to invite you to our big day.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
@@ -46,7 +46,7 @@
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
-                            <li><a href="#intro">How we met</a></li>
+                            <li><a href="#intro">Our Story</a></li>
                             <li><a href="#events">Events</a></li>
                             <li><a href="#instagram">Instagram</a></li>
                             <li><a href="#eng-pics">Engagement</a></li>
@@ -105,7 +105,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3 class="header">How we met</h3>
+                <h3 class="header">Our Story (...so far)</h3>
             </div>
         </div>
         <div class="row">
@@ -342,10 +342,10 @@ New York</h5>
 <section id="map" class="section-padding">
     <div class="text-center">
         <h3>How do I get there?</h3>
-        <p>It's way easier than you think!</p>
+        <p>It's easier than you think!</p>
     </div>
-    <div id="map-canvas"></div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
+    <div style="display:none;" id="map-canvas"></div>
+    <div style="display:none;" id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
                 <div class="text-center">
@@ -385,28 +385,24 @@ New York</h5>
         </div>
     </div>
     <div class="text-center">
-	    <div>
-		    <p>Click on the maps below to get directions using Google Maps</p>
-	    </div>
-	    <div class="col-md-4">
+	    <div class="minimap col-md-4">
 	        <h4>Welcome Drinks</h4>
 		<p>Nox Cocktail Lounge<br/>302 North Goodman Street<br/>Rochester, NY</p>
-		<a href="https://www.google.com/maps/dir/43.1234938,-77.620019/nox+rochester+ny/" target="_blank">
-			<img src="https://maps.googleapis.com/maps/api/staticmap?center=Nox,Rochester,NY&zoom=13&markers=Nox,Rochester,NY&size=300x300&key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA"/>i
-		</a>
+		<p><a class="btn btn-fill btn-small" href="https://www.google.com/maps/dir/43.1234938,-77.620019/Nox+Cocktail+Lounge,+302+Goodman+St+N,+Rochester,+NY+14607/" target="_blank"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Directions</a></p>
+		<img src="https://maps.googleapis.com/maps/api/staticmap?center=Nox+Cocktail+Lounge,Rochester,NY&zoom=13&markers=Nox,Rochester,NY&size=300x300&key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA"/>
 	    </div>
-	    <div class="col-md-4">
+	    <div class="minimap col-md-4">
 	        <h4>Wedding Ceremony & Reception</h4>
 		<p>The Waterfront Lodge at Abraham Lincoln Park<br/>Smith Road<br/>Webster, NY</p>
-		<a href="https://www.google.com/maps/dir/43.1234938,-77.620019/Abraham+Lincoln+Park+Lodge,+Smith+Road,+Webster,+NY/" target="_blank">
-	        <img src="https://maps.googleapis.com/maps/api/staticmap?center=AbrahamLincolnParkLodge,Rochester,NY&zoom=13&markers=AbrahamLincolnParkLodge,Rochester,NY&size=300x300&key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA"/>
+		<p><a class="btn btn-fill btn-small" href="https://www.google.com/maps/dir/43.1234938,-77.620019/Abraham+Lincoln+Park+Lodge,+Smith+Road,+Webster,+NY/" target="_blank"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Directions</a></p>
+	        <img src="https://maps.googleapis.com/maps/api/staticmap?center=Abraham+Lincoln+Park+Lodge,Webster,NY&zoom=13&markers=AbrahamLincolnParkLodge,Rochester,NY&size=300x300&key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA"/>
 		</a>
 	    </div>
-	    <div class="col-md-4">
+	    <div class="minimap col-md-4">
 	        <h4>Hotel</h4>
 		<p>Fairfield Inn and Suites<br/>915 Hard Road<br/>Webster, NY</p>
-		<a href="https://www.google.com/maps/dir/43.1234938,-77.620019/Fairfield+Inn+and+Suites+by+Marriott+Rochester+East,+Hard+Road,+Webster,+NY/" target="_blank">
-	        <img src="https://maps.googleapis.com/maps/api/staticmap?center=FairfieldInn,Webster,NY&zoom=13&markers=FairfieldInn,Webster,NY&size=300x300&key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA"/>
+		<p><a class="btn btn-fill btn-small" href="https://www.google.com/maps/dir/43.1234938,-77.620019/Fairfield+Inn+and+Suites+by+Marriott+Rochester+East,+Hard+Road,+Webster,+NY/" target="_blank"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Directions</a></p>
+	        <img src="https://maps.googleapis.com/maps/api/staticmap?center=Fairfield+Inn+and+Suites,Webster,NY&zoom=13&markers=FairfieldInn,Webster,NY&size=300x300&key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA"/>
 		</a>
 	    </div>
     </div>
@@ -489,8 +485,7 @@ New York</h5>
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Site adapted by Jory with lots of <span class="fa fa-heart pulse2"></span> for Valerie<br/>
-                from <a href="http://github.com/rampatra/wedding-website">github.com/rampatra/wedding-website</a>, licensed under GPL 3.0</p>
+                <p>Site adapted by Jory with lots of <span class="fa fa-heart pulse2"></span> for Valerie from <a href="http://github.com/rampatra/wedding-website">github.com/rampatra/wedding-website</a>, licensed under GPL 3.0</p>
             </div>
         </div>
     </div>
