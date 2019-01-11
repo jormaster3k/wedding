@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 // Imports
 //@import "compass";
 @import "partials/typography";
@@ -37,7 +38,7 @@ a:hover, a:focus {
   text-decoration: none;
 }
 body {
-  font-family: $sans-serif;
+  font-family: 'Montserrat';
   font-weight: $light;
   color: $txt-primary;
   -webkit-text-size-adjust: 100%;
@@ -104,6 +105,10 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+.container {
+  min-height: 400px;
+}
+
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -268,6 +273,9 @@ Hero
     color: $txt-light;
   }
   h1 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Montserrat';
     color: $txt-light;
     margin-bottom: 40px;
   }
@@ -278,7 +286,7 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 30%;
   }
   .hero-content img {
     width: 55%;
@@ -667,6 +675,7 @@ Engagement Pics
   }
   .img-wrap {
     position: relative;
+    margin-bottom: 10px;
     overflow: hidden;
     border-radius: 4px;
   }
