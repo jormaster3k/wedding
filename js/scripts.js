@@ -242,13 +242,14 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 11,
         center: roc,
-        scrollwheel: false
+        scrollwheel: false,
+	styles: ['terrain']
     });
 
     var marker = new google.maps.Marker({
         position: lodge,
         map: map,
-	label: "Abraham Lincoln Park Lodge"
+	title: "Abraham Lincoln Park Lodge"
     });
 }
 
