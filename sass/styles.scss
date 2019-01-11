@@ -257,7 +257,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/engagement-street.jpg') center center;
+  background: url('../img/engagement-street.jpg') center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -278,6 +278,7 @@ Hero
     font-family: 'Montserrat';
     color: $txt-light;
     margin-bottom: 40px;
+    display: none;
   }
   p.intro {
     color: $txt-light;
@@ -317,6 +318,7 @@ header {
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
+    font-weight: 800;
 
     &.login {
       margin-right: 20px;
@@ -803,6 +805,11 @@ RSVP form
 .rsvp {
   padding-bottom: 140px;
   .rsvp-form {
+    .input-group {
+      margin: 10px;
+    }
+    .form-control {
+    }
     .rsvp-btn {
       padding: 15px 0;
       border-radius: 3px;
