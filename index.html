@@ -16,7 +16,6 @@
     <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="Jory & Valerie">
     <meta property="og:description" content="We would like to invite you to our big day.">
-    <!--<meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">-->
     <meta property="og:type" content="website">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -48,13 +47,13 @@
                         <ul class="primary-nav">
                             <li><a href="#invitation">At a Glance</a></li>
                             <li><a href="#intro">Our Story</a></li>
-                            <li><a href="#events">Weekend Events</a></li>
+                            <li><a href="#events">Events</a></li>
                             <li><a href="#thebigday">The Big Day</a></li>
                             <li><a href="#video-bg">Staying Here</a></li>
                             <li><a href="#registry">Registry</a></li>
                         </ul>
                         <ul class="member-actions">
-                            <li><a href="#instagram">#easternbirdwedding</a>&nbsp;&nbsp;</li>
+                            <li id="#instagram"><a href="#instagram">#easternbirdwedding</a>&nbsp;&nbsp;</li>
                             <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                         </ul>
                     </nav>
@@ -80,11 +79,11 @@
     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
 </section>
 
-<section id="invitation" class="section-padding">
+<section id="invitation" class="section-padding min-height">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2 class="header">We're getting Married!</h2>
+                <h2 class="header">We're Getting Married!</h2>
                 <p>And you are invited! We are so excited for you to share in our special day!</p>
                 <p>We created this website to provide you with information about our wedding</p>
             </div>
@@ -99,8 +98,10 @@
             <h3 class="header">How We Met</h3>
         </div>
         <div class="row">
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/valerie.jpg" class="wp1"></div>
-            <div class="col-md-6">
+            <div class="col-md-3 hidden-sm hidden-xs">
+                <img src="img/first-photo.jpg" class="wp1">
+            </div>
+            <div class="col-md-9 text-left">
                 <p>
                     Shields up! Rrrrred alert! They were just sucked into space. 
                     You're going to be an interesting companion, Mr. Data. 
@@ -110,20 +111,21 @@
                     Talk about going nowhere fast. And blowing into maximum warp speed, you appeared for an instant to be in two places at once. 
                     I'm afraid I still don't understand, sir.
                 </p>
-		<p>How long can two people talk about nothing? Mr. Worf, you sound like a man who's asking his friend if he can start dating his sister. Computer, lights up! We could cause a diplomatic crisis. i
-		Take the ship into the Neutral Zone You're going to be an interesting companion, Mr. Data. What? We're not at all alike! 
-		Could someone survive inside a transporter buffer for 75 years? I'd like to think that I haven't changed those things, sir. 
-		Talk about going nowhere fast. I can't. As much as I care about you, my first duty is to the ship. Fate. 
-		It protects fools, little children, and ships named "Enterprise." Now, how the hell do we defeat an enemy that knows us better than we know ourselves?
-		</p>
-		<p>How long can two people talk about nothing? Mr. Worf, you sound like a man who's asking his friend if he can start dating his sister. Computer, lights up! We could cause a diplomatic crisis. 
-		</p>
             </div>
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/jory.jpg" class="wp2"></div>
+            <div class="col-md-3 hidden-md hidden-lg">
+                <img src="img/first-photo.jpg" class="wp1">
+            </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/valerie.jpg" class="wp8"></div>
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/jory.jpg" class="wp9"></div>
+        <div class="row p-5">
+            <div class="col-md-9">
+                <p>How long can two people talk about nothing? 
+                    Mr. Worf, you sound like a man who's asking his friend if he can start dating his sister. 
+                    Computer, lights up! We could cause a diplomatic crisis. 
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <img src="img/salus-prom.jpg" class="wp2">
+            </div>
         </div>
     </div>
 </section>
@@ -214,7 +216,7 @@
     </div>
 </section>
 
-<section id="events" class="section-padding dark">
+<section id="events" class="section-padding min-height dark">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -353,7 +355,7 @@
     </div>
 </section>
 
-<section id="registry" class="section-padding dark">
+<section id="registry" class="section-padding min-height dark">
     <div class="container">
         <div class="text-center">
             <h2 class="header">Registry</h2>
@@ -372,9 +374,8 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2>A picture is worth a thousand words!</h2>
-                <p>Help us capture the moment, tag your photos with the hashtag</p>
-                <span style="font-size: 20px;"><strong><a href="https://instagram.com/explore/tags/easternbirdwedding/" target="_blank">#easternbirdwedding</a></strong></span>
-                    
+                <p>Help us capture the moment, tag your photos with the hashtag
+                <strong><a href="https://instagram.com/explore/tags/easternbirdwedding/" target="_blank">#easternbirdwedding</a></strong>
                 </p>
             </div>
         </div>
@@ -409,7 +410,7 @@
     </div>
 </section>
 
-<section id="rsvp" class="rsvp text-center">
+<section id="rsvp" class="rsvp section-padding text-center dark">
 
     <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">

@@ -252,6 +252,19 @@ Navigation
   transition: all 300ms ease-in-out;
 }
 
+@media (max-width: 1200px)  {
+  li#instagram {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1201px) {
+  li#instagram {
+    visibility: visible;
+  }
+}
+
+
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -328,7 +341,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 40px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -414,10 +427,16 @@ Intro
   img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
   }
 }
 #intro p {
   text-align: center;
+  line-height: 40px;
+}
+
+#intro .row {
+  padding: 20px 0px;
 }
 
 /* ==========================================================================
@@ -803,7 +822,7 @@ Google map
 RSVP form
 ========================================================================== */
 .rsvp {
-  padding-bottom: 140px;
+  padding-bottom: 100px;
   .rsvp-form {
     .input-group {
       margin: 10px;

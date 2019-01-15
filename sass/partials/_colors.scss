@@ -2,31 +2,41 @@
 
 // Text colours
 $txt-primary: rgba(28, 54, 83, 1.0);
+
 // body font
 $txt-secondary: #3D4351;
+
 // heading font
 $txt-light: #fff;
+
 // header/hero
 $txt-accent: #ACB1B4;
 $form-placeholder: #BCC1C3;
-// form placeholder text
+
 // Global colours
-$accent-color: #9FC593; 
+$accent-color: #9FC593;
+
 // global accent colour
 $accent-color-hover: #99B986;
+
 // global accent colour hover
 $white-color: #fff;
 $black-color: #000;
+
 // Typography colours
+$h1-color: $txt-primary;
 $h2-color: $txt-primary;
 $h3-color: $txt-primary;
+$h4-color: $txt-primary;
 $h5-color: $txt-primary;
+
 // Layout colours
 $section-light-background: #fff;
 $section-dark-background: #e0d7cb;
 $to-top-bg: #495061;
 $footer-primary: #3D4351;
 $footer-secondary: #373D4A;
+
 // Keylines
 $keyline-color: #E6E9EA;
 $footer-keyline-color: #4E566C;
