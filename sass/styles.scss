@@ -619,7 +619,7 @@ Features-stack
     color: $txt-accent;
     font-weight: $semibold;
     text-transform: uppercase;
-    margin: 1rem;
+    margin-top: 35pxf;
   }
   .btn {
     margin-top: 20px;
@@ -837,6 +837,7 @@ RSVP form
       border-radius: 3px;
       width: 100%;
       font-size: 13px;
+      margin: 10px;
     }
     .form-input-group {
       width: 100%;
