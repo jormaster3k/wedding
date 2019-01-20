@@ -822,6 +822,37 @@ Google map
 }
 
 /* ==========================================================================
+Registry
+========================================================================== */
+
+#registry .card-img-top img {
+        -webkit-filter: grayscale(100%);
+        -webkit-transition: .5s ease-in-out;
+        -moz-filter: grayscale(100%); 
+        -moz-transition: .5s ease-in-out;
+        -o-filter: grayscale(100%); 
+        -o-transition: .5s ease-in-out;
+    }
+    
+#registry .card-img-top img:hover {
+        -webkit-filter: grayscale(0%);
+        -webkit-transition: .5s ease-in-out;
+        -moz-filter: grayscale(0%);
+        -moz-transition: .5s ease-in-out;
+        -o-filter: grayscale(0%);
+        -o-transition: .5s ease-in-out;
+    }
+
+#registry .card-body {
+  background: #333844;
+  color: white;
+  text-align: left;
+  p {
+    color: white;
+  }
+}
+
+/* ==========================================================================
 RSVP form
 ========================================================================== */
 .rsvp {
