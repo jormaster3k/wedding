@@ -590,11 +590,23 @@ Features-stack
 ========================================================================== */
 
 .weddingparty {
-  .row {
-    margin-bottom: 40px;
+
+  .bride h5 {
+    color:green;
+  }
+
+  .groom h5 {
+    color: blue;
   }
 
   .member {
+
+
+
+    .groom h4 {
+
+    }
+
     margin: 20px;
     }
 
@@ -603,8 +615,9 @@ Features-stack
       width: 150px;
       height: 150px;
       object-fit: cover;
+      border-radius: 10em;
     }
-    margin-right: 10px;
+    margin-right: 20px;
     float: left;
   }
   .member-text {
