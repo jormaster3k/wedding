@@ -586,79 +586,38 @@ Features-stack
 }
 
 /* ==========================================================================
-.blog
+.events
 ========================================================================== */
-.blog {
-  padding-bottom: 120px;
 
-  img {
-    width: 100%;
-    height: auto;
-    -moz-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
+.weddingparty {
+  .row {
+    margin-bottom: 40px;
   }
-  h2 {
-    font-size: $blog-post-title;
-    color: $txt-accent;
-    font-weight: $semibold;
-    text-transform: uppercase;
-    margin-top: 35pxf;
-  }
-  .btn {
-    margin-top: 20px;
-  }
-  .blog-img-wrap {
-    position: relative;
-    overflow: hidden;
 
-    .overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: rgba($white-color, 0.5);
-      -moz-transition: all 300ms ease-in-out;
-      -o-transition: all 300ms ease-in-out;
-      -webkit-transition: all 300ms ease-in-out;
-      transition: all 300ms ease-in-out;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-      filter: alpha(opacity=0);
-      opacity: 0;
+  .member {
+    margin: 20px;
     }
-    i {
-      color: $white-color;
-      font-size: 20px;
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      top: 25px;
-      right: 35px;
+
+  .member-pic {
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
     }
+    margin-right: 10px;
+    float: left;
   }
-  .blog-img-wrap:hover img, .blog-img-wrap:focus img {
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  .member-text {
+    text-align: left;
   }
-  .blog-img-wrap:hover .overlay, .blog-img-wrap:focus .overlay {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-    filter: alpha(opacity=1);
-    opacity: 1;
-    z-index: 9;
-  }
-  figcaption i {
-    margin-left: 5px;
-    font-size: 15px;
-  }
-  figcaption a.blog-post-title {
-    color: $txt-primary;
-  }
-  figcaption a.blog-post-title:hover, figcaption a.blog-post-title:focus {
-    color: $txt-secondary;
-  }
+}
+
+.member:after {
+  clear: both;
+  height: 0;
+  width: 100%;
+  content: '';
+  display: block;
 }
 
 /* ==========================================================================
@@ -989,7 +948,7 @@ $tl-bg-color: #968e8e;
     .row {
         padding: 0 0 4em 0;
         &:nth-child(even) {
-            background: #F1F4F5;
+            background: $section-light-background;
         }
     }
 }
