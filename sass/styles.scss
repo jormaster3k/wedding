@@ -250,23 +250,10 @@ Navigation
   position: absolute;
   height: 26px;
   right: 10px;
-  top: 48px;
+  top: 60px;
   visibility: hidden;
   transition: all 300ms ease-in-out;
 }
-
-@media (max-width: 1200px)  {
-  li#instagram {
-    visibility: hidden;
-  }
-}
-
-@media (min-width: 1201px) {
-  li#instagram {
-    visibility: visible;
-  }
-}
-
 
 /* ==========================================================================
 Hero
@@ -293,8 +280,10 @@ Hero
     font-weight: 900;
     font-family: 'Montserrat';
     color: $txt-light;
-    margin-bottom: 40px;
-    display: none;
+    margin: 30px;
+  }
+  h2 {
+    color: $txt-light;
   }
   p.intro {
     color: $txt-light;
@@ -303,7 +292,7 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 30%;
+    padding-top: 200px;
   }
   .hero-content img {
     width: 55%;
@@ -323,22 +312,20 @@ Hero
   width: 100%;
 }
 header {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
   margin: 0 auto;
   transition: padding 300ms ease-in-out;
+  line-height: normal;
 
   a {
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
     font-weight: 800;
-
-    &.login {
-      margin-right: 20px;
-    }
   }
   .logo {
     display: inline-block;
@@ -347,28 +334,23 @@ header {
     height: 40px;
   }
   ul.primary-nav {
-    margin: 0 0 0 75px;
-    padding: 0;
 
     li {
-      display: inline;
+      display: inline-block;
 
       a {
         color: $txt-light;
-        padding-right: 25px;
+        padding-right: 50px;
 
         &:hover {
           color: $accent-color;
         }
       }
-      &:last-child a {
-        padding-right: 0px;
-      }
     }
   }
   ul.member-actions {
     li {
-      display: inline;
+      display: inline-block;
 
       a {
         color: $txt-light;
@@ -382,12 +364,6 @@ header {
   .header-nav {
     display: inline-block;
   }
-  .member-actions {
-    position: absolute;
-    right: 0;
-    top: 41px;
-    transition: all 300ms ease-in-out;
-  }
 }
 .down-arrow {
   color: #fff;
@@ -396,13 +372,6 @@ header {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-/* ==========================================================================
-Social share buttons
-========================================================================== */
-.share-bar {
-  margin-top: 20px;
 }
 
 /* ==========================================================================
@@ -426,10 +395,8 @@ Intro
 }
 
 #intro {
-  padding-top: 40px;
   img {
     width: 100%;
-    height: auto;
     border-radius: 10px;
   }
 }
@@ -758,7 +725,7 @@ Engagement Pics
 /* ==========================================================================
 Embed video
 ========================================================================== */
-#video-bg {
+section#video-bg {
   height: 300px;
 }
 #video-content {
