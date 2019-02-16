@@ -413,18 +413,27 @@ Intro
 }
 
 #intro {
+
+  img.story-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 6em;
+    object-fit: cover;
+  }
+
   img {
     width: 100%;
     border-radius: 10px;
   }
-}
-#intro p {
-  text-align: center;
-  line-height: 2rem;
-}
 
-#intro .row {
-  padding: 20px 0px;
+  p {
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .row {
+    padding: 20px 0px;
+  }
 }
 
 /* ==========================================================================
