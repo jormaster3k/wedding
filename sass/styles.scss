@@ -119,6 +119,11 @@ section .header {
   visibility: hidden;
 }
 
+.round-img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -407,6 +412,20 @@ header {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+#invitation {
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  .plus-sign {
+    padding: 50px;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
 }
 
 /* ==========================================================================

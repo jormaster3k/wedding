@@ -81,15 +81,27 @@
 </section>
 
 <a id="invitation" class="anchor"></a>
-<section id="invitation" class="section-padding min-height">
+<section id="invitation" class="section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="header">We're Getting Married!</h2>
-		<p>
-		And you are invited! We are so excited for you to share in our special day!
-		We created this website to provide you with important information about our wedding (as well as a little fluff). Keep scrolling to see how our love story evolved, and use the quick links above to quickly find any wedding details you need in a pinch.
-		</p>
+                    <p>
+                        And you are invited! We are so excited for you to share in our special day!
+                        We created this website to provide you with important information about our wedding (as well as a little fluff). Keep scrolling to see how our love story evolved, and use the quick links above to quickly find any wedding details you need in a pinch.
+                    </p>
+                <div class="row m-5">
+                    <div class="col-12 col-lg-5 text-center text-lg-right wp1">
+                        <img class="round-img" src="img/valerie.jpg">
+                    </div>
+                    <div class="plus-sign col-12 col-lg-2 text-center">
+                        <i class="fa fa-heart" style="font-size: 48px;"></i>
+                    </div>
+                    <div class="col-12 col-lg-5 text-center text-lg-left wp2">
+                        <img class="round-img" src="img/jory.jpg">
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -692,15 +704,19 @@
 
     <div class="container">
         <div class="text-center">
-            <h2 class="header">What are you waiting for?</h2>
+            <h2 class="header">RSVP</h2>
         </div>
-        <div class="row text-center">
+        <div class="rsvp-coming-soon text-center">
+                <h4>RSVP coming soon</h4>
+        </div>
+        <h3 class="d-none">What are you waiting for?</h3>
+        <div class="row text-center d-none">
             <p>We would greatly appreciate if you could RSVP before May 1st. 
             Each guest attending should fill out this form separately, even if you are attending as a couple.
             Respectfully, we wish to keep this an adults-only occasion.
             </p>
         </div>
-        <div class="row text-center">
+        <div class="row text-center d-none">
             <div class="col-md-6 offset-md-3">
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
@@ -757,7 +773,7 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Site adapted by Jory with lots of <span class="fa fa-heart pulse2"></span> for Valerie from <a href="http://github.com/rampatra/wedding-website">github.com/rampatra/wedding-website</a>, licensed under GPL 3.0</p>
+                <p>Source code available on <a href="https://github.com/jormaster3k/wedding-website">GitHub</a>, licensed under GPL 3.0</p>
             </div>
         </div>
     </div>
@@ -772,8 +788,6 @@
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZZf6mNG-HVf-ycXYfd-VUy-mvdyTTYAA&callback=initMap"></script>
 <!-- Google Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -787,7 +801,7 @@
         a.src = g;
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
+    ga('create', 'UA-134604628-1', 'auto');
     ga('send', 'pageview');
 </script>
 </body>
