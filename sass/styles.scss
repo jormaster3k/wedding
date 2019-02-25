@@ -416,10 +416,17 @@ header {
 
 #invitation {
   img {
+    @media(max-width: 500px) {
+      width: 200px;
+      height: 200px;
+    }
     width: 300px;
     height: 300px;
   }
   .plus-sign {
+    @media(max-width: 500px) {
+      padding: 30px;
+    }
     padding: 50px;
     display: flex;
     justify-content:center;
@@ -645,15 +652,8 @@ Features-stack
   }
 
   .member {
-
-
-
-    .groom h4 {
-
-    }
-
     margin: 20px;
-    }
+  }
 
   .member-pic {
     img {
