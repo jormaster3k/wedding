@@ -858,7 +858,12 @@ Registry
 RSVP form
 ========================================================================== */
 .rsvp {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+
+  .rsvp-btn { 
+    padding: 8px 30px;
+  }
+
   .rsvp-form {
     .input-group {
       margin: 10px;
@@ -866,7 +871,7 @@ RSVP form
     .form-control {
     }
     .rsvp-btn {
-      padding: 15px 0;
+      padding: 8px 30px;
       border-radius: 3px;
       width: 100%;
       font-size: 13px;
