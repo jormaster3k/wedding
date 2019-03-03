@@ -377,12 +377,16 @@ header {
   }
   ul.primary-nav {
 
+    br {
+      display: none;
+    }
+
     li {
       display: inline-block;
 
       a {
         color: $txt-light;
-        padding-right: 50px;
+        padding-right: 20%;
 
         &:hover {
           color: $accent-color;
