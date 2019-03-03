@@ -833,6 +833,10 @@ Google map
 Registry
 ========================================================================== */
 
+#registry {
+  background: $registry-bg;
+}
+
 #registry .card-img-top img {
         -webkit-filter: grayscale(100%);
         -webkit-transition: .5s ease-in-out;
