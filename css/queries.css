@@ -326,7 +326,11 @@
     }
 
     .hero h1 {
-        font-size: 50px;
+        font-size: 6em;
+    }
+
+    .hero h2 {
+        font-size: 2em;
     }
 
     .btn-margin-right {

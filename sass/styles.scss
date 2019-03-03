@@ -300,7 +300,7 @@ Hero
     rgba(0,0,0,0.4),
     rgba(0,0,0,0.4)
     ),
-  url('../img/engagement-street.jpg') center top;
+  url('../img/eng_pics/engagement-7.jpg') center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -316,7 +316,9 @@ Hero
     color: $txt-light;
   }
   h1 {
-    font-size: 100px;
+    font-size: 10em;
+    line-height: .6em;
+    font-variant-caps: all-petite-caps;
     font-family: 'Montserrat';
     color: $txt-light;
     margin: 30px;
@@ -409,7 +411,7 @@ header {
   color: #fff;
   font-size: 30px;
   position: absolute;
-  bottom: 30px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
 }
